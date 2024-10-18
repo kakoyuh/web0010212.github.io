@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCP</title>
+    <link rel="webside icon" type="png"
+    href="TCP.png">
+
+    <link rel="stylesheet" href="styel-box.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+    img {
+border-radius: 15px;
+
+    }
+    </style>
+
+<body>
+   <header>
+    <nav> 
+        <a href="001.html"><img src="未命名-2.png" width="200"></a> 
+        <a href="002.html"><img src="未命名-1.png" width="200"></a>
+        
+
+
+    </nav>
+   </header>
+
+   <main>
+    
+     <p><img src="TCP.png" width="400" class="shadow" class="border"></p>
+     <p class="custom-font" class="custom-shadow">Welcome to TCP</p>
+
+     
+    </main>
+
+
+
+
+<footer>
+    <a href="#" width="200">
+    <i class='bx bxl-gmail' ></i>
+    </a>
+    <a href="#" width="200">
+    <i class='bx bxl-discord-alt' ></i>
+    </a>
+    <a href="#" width="200">
+    <i class='bx bxl-youtube' ></i>
+    </a>
+    </footer>
+</body>
+</html>
+<img id="myImage" style="width: 200px;">
+
+<script>
+  const image = document.getElementById('myImage');
+  
+  image.addEventListener('click', () => {
+    image.style.transform = 'scale(1.1)'; // 点击时放大
+    setTimeout(() => {
+      image.style.transform = 'scale(1)'; // 0.3秒后恢复原样
+    }, 300);
+  });
+</script>
